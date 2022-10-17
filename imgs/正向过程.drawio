@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T04:10:31.756Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.42" etag="r11hhljp3BwOai_marjm" version="20.4.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-17T04:11:08.661Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.42" etag="Fo3lhQsBwc757JMFZv4P" version="20.4.1" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="正向过程">
     <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -139,6 +139,9 @@
         </mxCell>
         <mxCell id="MB0l_RFAwYuOKAs4vBkQ-17" value="得到原始图像，并交付给用户" style="whiteSpace=wrap;html=1;rounded=0;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="60" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MB0l_RFAwYuOKAs4vBkQ-19" value="从区块链上检索指定图像的人脸指纹" style="whiteSpace=wrap;html=1;rounded=0;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="570" y="60" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
