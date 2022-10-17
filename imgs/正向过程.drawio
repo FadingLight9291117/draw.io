@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T04:03:29.996Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.42" etag="edL9q-vtjBuCfKuSo_Ys" version="20.4.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-17T04:03:36.927Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.42" etag="bSa4jMnf3H35g2HwFInZ" version="20.4.1" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="正向过程">
     <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -96,10 +96,10 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1kAMh8px42mwaqg6lwGX-1" value="检索图片库" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="1kAMh8px42mwaqg6lwGX-1" value="检索图片库" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="170" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1kAMh8px42mwaqg6lwGX-2" value="获取去隐私化的图像" style="rounded=1;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="1kAMh8px42mwaqg6lwGX-2" value="获取去隐私化的图像" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="170" y="130" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
