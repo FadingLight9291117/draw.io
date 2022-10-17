@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T04:10:12.097Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.42" etag="Sx2eASWCQ2b1JQXzSx1U" version="20.4.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-17T04:10:31.756Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.42" etag="r11hhljp3BwOai_marjm" version="20.4.1" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="正向过程">
     <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -100,45 +100,45 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1kAMh8px42mwaqg6lwGX-1" value="检索图片库" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="190" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="60" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MB0l_RFAwYuOKAs4vBkQ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1kAMh8px42mwaqg6lwGX-2" target="MB0l_RFAwYuOKAs4vBkQ-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1kAMh8px42mwaqg6lwGX-2" value="获取去隐私化的图像" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="190" y="170" width="120" height="60" as="geometry" />
+          <mxGeometry x="60" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MB0l_RFAwYuOKAs4vBkQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MB0l_RFAwYuOKAs4vBkQ-2" target="MB0l_RFAwYuOKAs4vBkQ-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MB0l_RFAwYuOKAs4vBkQ-2" value="检索指定图像的人脸密文" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="380" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="250" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MB0l_RFAwYuOKAs4vBkQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MB0l_RFAwYuOKAs4vBkQ-3" target="MB0l_RFAwYuOKAs4vBkQ-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MB0l_RFAwYuOKAs4vBkQ-3" value="用户持有的密钥" style="whiteSpace=wrap;html=1;rounded=0;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="530" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MB0l_RFAwYuOKAs4vBkQ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MB0l_RFAwYuOKAs4vBkQ-5" target="MB0l_RFAwYuOKAs4vBkQ-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="510" y="280" />
-              <mxPoint x="250" y="280" />
+              <mxPoint x="380" y="310" />
+              <mxPoint x="120" y="310" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="MB0l_RFAwYuOKAs4vBkQ-5" value="解密人脸密文得到人人脸数据" style="whiteSpace=wrap;html=1;rounded=0;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="450" y="170" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MB0l_RFAwYuOKAs4vBkQ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MB0l_RFAwYuOKAs4vBkQ-11" target="MB0l_RFAwYuOKAs4vBkQ-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MB0l_RFAwYuOKAs4vBkQ-11" value="使用人脸数据替换face mask" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="190" y="350" width="120" height="60" as="geometry" />
+          <mxGeometry x="60" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MB0l_RFAwYuOKAs4vBkQ-17" value="得到原始图像，并交付给用户" style="whiteSpace=wrap;html=1;rounded=0;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="190" y="460" width="120" height="60" as="geometry" />
+          <mxGeometry x="60" y="490" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
