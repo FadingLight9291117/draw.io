@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-18T07:46:25.598Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.47" etag="NPZZppketESoDpvDfQY2" version="20.4.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-18T07:51:42.911Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.47" etag="rC0XTe9LQVgiWrDjJBOo" version="20.4.1" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="总体架构">
     <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -234,6 +234,15 @@
         <mxCell id="lrqqWhtxAbYgg2bAAVtC-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lrqqWhtxAbYgg2bAAVtC-5" target="lrqqWhtxAbYgg2bAAVtC-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="lrqqWhtxAbYgg2bAAVtC-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lrqqWhtxAbYgg2bAAVtC-5" target="lrqqWhtxAbYgg2bAAVtC-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lrqqWhtxAbYgg2bAAVtC-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lrqqWhtxAbYgg2bAAVtC-5" target="lrqqWhtxAbYgg2bAAVtC-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lrqqWhtxAbYgg2bAAVtC-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lrqqWhtxAbYgg2bAAVtC-5" target="lrqqWhtxAbYgg2bAAVtC-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="lrqqWhtxAbYgg2bAAVtC-5" value="人脸检测算法检测出全部n张人脸face1,face2..facen" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="265" width="120" height="60" as="geometry" />
         </mxCell>
@@ -249,8 +258,11 @@
         <mxCell id="lrqqWhtxAbYgg2bAAVtC-10" value="使用n个face mask覆盖face1...facen" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="395" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="lrqqWhtxAbYgg2bAAVtC-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lrqqWhtxAbYgg2bAAVtC-14" target="lrqqWhtxAbYgg2bAAVtC-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="lrqqWhtxAbYgg2bAAVtC-14" value="将去隐私化的图像存储至视图库" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="525" width="120" height="60" as="geometry" />
+          <mxGeometry x="50" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lrqqWhtxAbYgg2bAAVtC-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lrqqWhtxAbYgg2bAAVtC-16" target="lrqqWhtxAbYgg2bAAVtC-9">
           <mxGeometry relative="1" as="geometry" />
@@ -258,14 +270,53 @@
         <mxCell id="lrqqWhtxAbYgg2bAAVtC-16" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="lrqqWhtxAbYgg2bAAVtC-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lrqqWhtxAbYgg2bAAVtC-18" target="lrqqWhtxAbYgg2bAAVtC-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lrqqWhtxAbYgg2bAAVtC-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lrqqWhtxAbYgg2bAAVtC-18" target="lrqqWhtxAbYgg2bAAVtC-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="lrqqWhtxAbYgg2bAAVtC-18" value="分别加密face1...facen" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="395" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lrqqWhtxAbYgg2bAAVtC-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lrqqWhtxAbYgg2bAAVtC-19" target="lrqqWhtxAbYgg2bAAVtC-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lrqqWhtxAbYgg2bAAVtC-19" value="得到加密后的face1...facen" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="525" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lrqqWhtxAbYgg2bAAVtC-20" value="解密face1...facen的密钥" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="520" width="120" height="60" as="geometry" />
+        <mxCell id="lrqqWhtxAbYgg2bAAVtC-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lrqqWhtxAbYgg2bAAVtC-20" target="lrqqWhtxAbYgg2bAAVtC-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lrqqWhtxAbYgg2bAAVtC-20" value="解密face1...facen的密钥key1...keyn" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lrqqWhtxAbYgg2bAAVtC-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lrqqWhtxAbYgg2bAAVtC-21" target="lrqqWhtxAbYgg2bAAVtC-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lrqqWhtxAbYgg2bAAVtC-21" value="存储至数据库" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lrqqWhtxAbYgg2bAAVtC-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lrqqWhtxAbYgg2bAAVtC-27" target="lrqqWhtxAbYgg2bAAVtC-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lrqqWhtxAbYgg2bAAVtC-27" value="计算face1..facen的hash值作为数据指纹" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="395" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lrqqWhtxAbYgg2bAAVtC-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lrqqWhtxAbYgg2bAAVtC-28" target="lrqqWhtxAbYgg2bAAVtC-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lrqqWhtxAbYgg2bAAVtC-28" value="获取face1...facen在原始图像上的坐标信息ord1...ordn" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="395" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lrqqWhtxAbYgg2bAAVtC-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lrqqWhtxAbYgg2bAAVtC-31" target="lrqqWhtxAbYgg2bAAVtC-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lrqqWhtxAbYgg2bAAVtC-31" value="存储至区块链" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lrqqWhtxAbYgg2bAAVtC-34" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="880" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
