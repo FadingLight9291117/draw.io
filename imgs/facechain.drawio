@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-18T07:16:03.599Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.47" etag="vSvIhazfR_26G57xAM8E" version="20.4.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-18T07:16:58.958Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.47" etag="j1j8iBIWDT4imap5CF37" version="20.4.1" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="总体架构">
     <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -55,19 +55,19 @@
         <mxCell id="MVzGXysxAG-uWQFW-auq-9" value="人脸数据加密" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="310" y="360" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="MVzGXysxAG-uWQFW-auq-11" value="存储人脸密文" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="MVzGXysxAG-uWQFW-auq-11" value="人脸密文存储" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="470" y="320" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="MVzGXysxAG-uWQFW-auq-12" value="存储人脸密钥" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="MVzGXysxAG-uWQFW-auq-12" value="人脸密钥存储" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="470" y="400" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MVzGXysxAG-uWQFW-auq-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MVzGXysxAG-uWQFW-auq-16" target="MVzGXysxAG-uWQFW-auq-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MVzGXysxAG-uWQFW-auq-16" value="计算人脸指纹" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="MVzGXysxAG-uWQFW-auq-16" value="人脸指纹计算" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="505" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="MVzGXysxAG-uWQFW-auq-17" value="区块链存储人脸指纹" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="MVzGXysxAG-uWQFW-auq-17" value="区块链存储" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="315" y="505" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MVzGXysxAG-uWQFW-auq-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="MVzGXysxAG-uWQFW-auq-20" target="MVzGXysxAG-uWQFW-auq-21" edge="1">
