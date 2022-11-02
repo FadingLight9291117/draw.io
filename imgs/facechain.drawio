@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T04:10:31.014Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" etag="B3yxrGXuyzqim9l0W5xU" version="20.5.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-11-02T04:15:29.757Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" etag="DqSs9pzOfRrT5lbi-A10" version="20.5.0" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="总体架构">
     <mxGraphModel dx="758" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -396,19 +396,19 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="4l5PI_22TZCRHgjH5nsU-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;strokeWidth=1;" edge="1" parent="1" source="4l5PI_22TZCRHgjH5nsU-2" target="4l5PI_22TZCRHgjH5nsU-3">
+        <mxCell id="4l5PI_22TZCRHgjH5nsU-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;strokeWidth=1;width=6;" edge="1" parent="1" source="4l5PI_22TZCRHgjH5nsU-2" target="4l5PI_22TZCRHgjH5nsU-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4l5PI_22TZCRHgjH5nsU-2" value="人脸图像" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4l5PI_22TZCRHgjH5nsU-6" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4l5PI_22TZCRHgjH5nsU-3" target="4l5PI_22TZCRHgjH5nsU-5">
+        <mxCell id="4l5PI_22TZCRHgjH5nsU-6" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;width=6;" edge="1" parent="1" source="4l5PI_22TZCRHgjH5nsU-3" target="4l5PI_22TZCRHgjH5nsU-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4l5PI_22TZCRHgjH5nsU-3" value="置乱" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4l5PI_22TZCRHgjH5nsU-9" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;" edge="1" parent="1" source="4l5PI_22TZCRHgjH5nsU-5" target="4l5PI_22TZCRHgjH5nsU-8">
+        <mxCell id="4l5PI_22TZCRHgjH5nsU-9" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;width=6;" edge="1" parent="1" source="4l5PI_22TZCRHgjH5nsU-5" target="4l5PI_22TZCRHgjH5nsU-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4l5PI_22TZCRHgjH5nsU-5" value="扩散" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -416,6 +416,18 @@
         </mxCell>
         <mxCell id="4l5PI_22TZCRHgjH5nsU-8" value="加密人脸" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4l5PI_22TZCRHgjH5nsU-13" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=default;width=6;" edge="1" parent="1" source="4l5PI_22TZCRHgjH5nsU-10" target="4l5PI_22TZCRHgjH5nsU-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4l5PI_22TZCRHgjH5nsU-10" value="2D Logistic map" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="100" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4l5PI_22TZCRHgjH5nsU-14" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=default;width=6;" edge="1" parent="1" source="4l5PI_22TZCRHgjH5nsU-12" target="4l5PI_22TZCRHgjH5nsU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4l5PI_22TZCRHgjH5nsU-12" value="2D Henon map" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="310" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
