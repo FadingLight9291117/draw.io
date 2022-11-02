@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T04:45:30.490Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" etag="rrSjP79RQJ8AbPdbjRw6" version="20.5.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-11-02T06:07:13.409Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" etag="8xfPFEf2OVeXKWXYSY8H" version="20.5.0" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="总体架构">
     <mxGraphModel dx="758" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -411,13 +411,13 @@
         <mxCell id="4l5PI_22TZCRHgjH5nsU-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="4l5PI_22TZCRHgjH5nsU-10" target="4l5PI_22TZCRHgjH5nsU-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4l5PI_22TZCRHgjH5nsU-10" value="2维Logistic 混沌映射" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4l5PI_22TZCRHgjH5nsU-10" value="2D Logistic 混沌映射" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="235" y="140" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4l5PI_22TZCRHgjH5nsU-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="4l5PI_22TZCRHgjH5nsU-12" target="4l5PI_22TZCRHgjH5nsU-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4l5PI_22TZCRHgjH5nsU-12" value="2维Henon 混沌映射" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4l5PI_22TZCRHgjH5nsU-12" value="2D Henon 混沌映射" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="415" y="140" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4l5PI_22TZCRHgjH5nsU-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="4l5PI_22TZCRHgjH5nsU-16" target="4l5PI_22TZCRHgjH5nsU-3">
