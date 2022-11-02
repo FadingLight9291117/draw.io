@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T10:12:33.854Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" etag="yYg267ENHZKwhgdcegXx" version="20.5.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-11-02T10:12:45.310Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" etag="yh7S5j-R-v4tSMlvfJjx" version="20.5.1" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="总体架构">
     <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="MVzGXysxAG-uWQFW-auq-35" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="130" y="80" width="490" height="550" as="geometry" />
+          <mxGeometry x="130" y="80" width="490" height="500" as="geometry" />
         </mxCell>
         <mxCell id="MVzGXysxAG-uWQFW-auq-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="145" y="505" width="455" height="100" as="geometry" />
+          <mxGeometry x="145" y="460" width="455" height="100" as="geometry" />
         </mxCell>
         <mxCell id="MVzGXysxAG-uWQFW-auq-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="145" y="300" width="455" height="140" as="geometry" />
@@ -41,10 +41,10 @@
           <mxGeometry x="310" y="350" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MVzGXysxAG-uWQFW-auq-16" value="人脸指纹计算" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="160" y="530" width="120" height="40" as="geometry" />
+          <mxGeometry x="160" y="485" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MVzGXysxAG-uWQFW-auq-17" value="区块链存储" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="470" y="530" width="120" height="40" as="geometry" />
+          <mxGeometry x="470" y="485" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="MVzGXysxAG-uWQFW-auq-29" value="人脸隐私保护模块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="145" y="190" width="120" height="30" as="geometry" />
@@ -53,7 +53,7 @@
           <mxGeometry x="145" y="300" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MVzGXysxAG-uWQFW-auq-31" value="人脸完整性模块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="145" y="505" width="110" height="30" as="geometry" />
+          <mxGeometry x="145" y="460" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qkrcbtvOz6kqvmCzhJ64-0" value="视图库图像" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="400" y="115" width="120" height="40" as="geometry" />
@@ -62,7 +62,7 @@
           <mxGeometry x="310" y="220" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4wZroArb7oBPbrYdIL3B-5" value="智能合约" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="310" y="530" width="120" height="40" as="geometry" />
+          <mxGeometry x="310" y="485" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
