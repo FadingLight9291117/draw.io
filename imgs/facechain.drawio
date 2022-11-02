@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T10:13:05.127Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" etag="sFV2PA0qQjJ0DBgvXB7_" version="20.5.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-11-02T10:14:34.583Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" etag="pEW8iJ34jK_kAefc13qB" version="20.5.1" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="总体架构">
     <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="MVzGXysxAG-uWQFW-auq-35" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="130" y="80" width="490" height="470" as="geometry" />
+          <mxGeometry x="130" y="60" width="490" height="490" as="geometry" />
         </mxCell>
         <mxCell id="MVzGXysxAG-uWQFW-auq-25" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="145" y="430" width="455" height="100" as="geometry" />
@@ -14,16 +14,16 @@
           <mxGeometry x="145" y="300" width="455" height="110" as="geometry" />
         </mxCell>
         <mxCell id="MVzGXysxAG-uWQFW-auq-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="145" y="195" width="455" height="85" as="geometry" />
+          <mxGeometry x="145" y="190" width="455" height="90" as="geometry" />
         </mxCell>
         <mxCell id="MVzGXysxAG-uWQFW-auq-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="145" y="100" width="455" height="70" as="geometry" />
+          <mxGeometry x="142.5" y="70" width="455" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="监控图像" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="250" y="115" width="120" height="40" as="geometry" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="图像采集" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="220" y="95" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="MVzGXysxAG-uWQFW-auq-2" value="图像采集" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="170" y="120" width="70" height="30" as="geometry" />
+        <mxCell id="MVzGXysxAG-uWQFW-auq-2" value="用户" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="142.5" y="70" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MVzGXysxAG-uWQFW-auq-3" value="人脸检测" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="170" y="220" width="120" height="40" as="geometry" />
@@ -55,8 +55,8 @@
         <mxCell id="MVzGXysxAG-uWQFW-auq-31" value="人脸完整性模块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="145" y="430" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qkrcbtvOz6kqvmCzhJ64-0" value="视图库图像" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="400" y="115" width="120" height="40" as="geometry" />
+        <mxCell id="qkrcbtvOz6kqvmCzhJ64-0" value="用户授权" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="390" y="95" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4wZroArb7oBPbrYdIL3B-3" value="人脸姿态检测" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="310" y="220" width="120" height="40" as="geometry" />
