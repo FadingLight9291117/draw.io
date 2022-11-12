@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-12T20:15:44.281Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42" etag="7IsWB6Vx9bR2WX-MplMv" version="20.5.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-11-12T20:15:58.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42" etag="jnEMWUHxaeuKu_E8AYe1" version="20.5.3" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="总体架构">
     <mxGraphModel dx="782" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -357,7 +357,7 @@
         <mxCell id="rJ-31sGKqoJ1bGX2pho9-4" value="将3D人脸模型投影到2D平面得到Face Mask" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rJ-31sGKqoJ1bGX2pho9-5" value="根据人脸的位置，将2D的Face Mask融合进原始图像" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="rJ-31sGKqoJ1bGX2pho9-5" value="根据人脸的位置，将2D的Face Mask与原始图像进行融合" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MN6G8SK2a_Xjumn0ojPY-5" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;" parent="1" source="MN6G8SK2a_Xjumn0ojPY-3" target="MN6G8SK2a_Xjumn0ojPY-4" edge="1">
