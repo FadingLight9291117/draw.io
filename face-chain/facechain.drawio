@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T09:00:10.907Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" etag="AlOHHasvfvtZyg4m9Cgh" version="20.5.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-04T09:00:32.665Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54" etag="8DLb2sbBFYLe80W9RAbe" version="20.5.3" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="总体架构">
     <mxGraphModel dx="782" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -325,6 +325,12 @@
         </mxCell>
         <mxCell id="BGC2Xgv4w4RP5XRHsU52-2" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="370" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BGC2Xgv4w4RP5XRHsU52-3" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BGC2Xgv4w4RP5XRHsU52-4" value="人脸检测模块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
